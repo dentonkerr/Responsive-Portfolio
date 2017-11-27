@@ -1,0 +1,277 @@
+
+html {
+    background-image: url("../images/vertical-waves 2/vertical-waves.png");
+}
+
+/* Denton Kerr top page */
+header {
+    color: white;
+    background-color: #4aaaa5;
+    font-size: 28px;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    font-weight: bold;
+    float: left;
+    margin-left: 200px;
+    position: absolute;
+    left: 50px;
+    padding: 21.5px;
+}
+
+/* about me headline */
+h2 {
+    font-family: "Georgia", Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #4aaaa5;
+    margin-left: 0;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+    padding: 10px;
+    display: block;
+    color: #777777;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    top: 0px;
+    padding: 14px 16px;
+    right: 400px;
+}
+/*nav bar hover top right*/
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* about me box */
+.wrapper {
+    background-color: white;
+    width: 500px;
+    margin-left: 230px;
+    margin-top: 50px;
+    padding: 5px;
+    outline-style: solid;
+    outline-color: lightslategray;
+    outline-width: 1px;
+}
+
+/* contact fill in boxes */
+.wrapper2 {
+    background-color: white;
+    width: 500px;
+    margin-left: 230px;
+    margin-top: 50px;
+    padding: 5px;
+    outline-style: solid;
+    outline-color: lightslategray;
+    outline-width: 1px;
+    line-height: 30px;
+}
+
+.wrapper3 {
+    background-color: white;
+    width: 500px;
+    margin-left: 230px;
+    margin-top: 50px;
+    padding: 5px;
+    outline-style: solid;
+    outline-color: lightslategray;
+    outline-width: 1px;
+    line-height: 30px;
+}
+
+/* about me picture */
+#dude {
+    float: left;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+/* about me  text*/
+#bio {
+    line-height: 2;
+}
+
+body {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* connect box index */
+aside {
+    width: 200px;
+    height: 100px;
+    float: right;
+    background: #fff;
+    text-align: center;
+    border: 1px solid lightslategray;
+    padding: 20px;
+    margin-left: 675px;
+    position: relative;
+    bottom: 323px;
+    right: -110px;
+}
+
+/*connect box index h3*/
+aside h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    size: 18px;
+    font-weight: bold;
+}
+
+/* connect box contact */
+aside2 {
+    width: 200px;
+    height: 100px;
+    float: right;
+    background: #fff;
+    text-align: center;
+    border: 1px solid lightslategray;
+    padding: 20px;
+    margin-left: 675px;
+    position: relative;
+    bottom: 450px;
+    right: -110px;
+}
+/*connect box contact h3*/
+aside2 h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    size: 18px;
+    font-weight: bold;
+}
+
+/* connect box contact portfolio */
+aside3 {
+    width: 200px;
+    height: 100px;
+    float: right;
+    background: #fff;
+    text-align: center;
+    border: 1px solid lightslategray;
+    padding: 20px;
+    margin-left: 675px;
+    position: relative;
+    bottom: 758px;
+    right: -110px;
+}
+/*connect box portfolio h3*/
+aside3 h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    size: 18px;
+    font-weight: bold;
+}
+
+/* contact page inputs moved right in box*/
+form {
+    margin-left: 3px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* message area in contact*/
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* submit button */
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button:hover{
+    background-color: lightslategray;
+    color: black;
+}
+
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 175px;
+    margin-bottom: 0;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    left: 0px;
+    bottom: 70px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #666666;
+    color: #cccccc;
+    font-size: 12px;
+    height: 50px;
+    border-top-style: solid;
+    border-top-width: 8px;
+    border-top-color: #4aaaa5;
+    padding-top: 40px;
+}
