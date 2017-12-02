@@ -1,6 +1,9 @@
-
 html {
     background-image: url("../images/vertical-waves 2/vertical-waves.png");
+}
+
+.container {
+    width: 100%;
 }
 
 /* Denton Kerr top page */
@@ -11,9 +14,8 @@ header {
     font-family: "Georgia", Times, Times New Roman, serif;
     font-weight: bold;
     float: left;
-    margin-left: 200px;
     position: absolute;
-    left: 50px;
+    left: 10%;
     padding: 21.5px;
 }
 
@@ -29,32 +31,31 @@ h2 {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding: auto;
     overflow: hidden;
     background-color: white;
+    padding-right: 10%;
+    margin-bottom: 5%;
 }
 
 li {
+    display: inline-block;
+    color: #777777;
+    text-decoration: none;
+    padding: 14px;
     float: right;
-    padding: 10px;
-    display: block;
+    position: relative;
+    right: 10%;
+}
+
+li a {
+    display: inline-block;
     color: #777777;
     text-align: center;
     text-decoration: none;
     padding: 14px 16px;
 }
 
-li a {
-    display: block;
-    color: #777777;
-    text-align: center;
-    text-decoration: none;
-    position: relative;
-    top: 0px;
-    padding: 14px 16px;
-    right: 400px;
-}
 /*nav bar hover top right*/
 li a:hover {
     background-color: #555;
@@ -64,10 +65,10 @@ li a:hover {
 /* about me box */
 .wrapper {
     background-color: white;
-    width: 500px;
-    margin-left: 230px;
-    margin-top: 50px;
-    padding: 5px;
+    width: 35%;
+    margin-left: 15%;
+    margin-top: 2%;
+    padding: 1%;
     outline-style: solid;
     outline-color: lightslategray;
     outline-width: 1px;
@@ -76,10 +77,11 @@ li a:hover {
 /* contact fill in boxes */
 .wrapper2 {
     background-color: white;
-    width: 500px;
-    margin-left: 230px;
-    margin-top: 50px;
+    width: 34%;
+    margin-left: 20%;
+    margin-top: 2%;
     padding: 5px;
+    margin-bottom:9%;
     outline-style: solid;
     outline-color: lightslategray;
     outline-width: 1px;
@@ -88,9 +90,10 @@ li a:hover {
 
 .wrapper3 {
     background-color: white;
-    width: 500px;
-    margin-left: 230px;
-    margin-top: 50px;
+    width: 33%;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 9%;
     padding: 5px;
     outline-style: solid;
     outline-color: lightslategray;
@@ -119,17 +122,16 @@ body {
 
 /* connect box index */
 aside {
-    width: 200px;
-    height: 100px;
-    float: right;
+    width: 14%;
+    height: 25%;
     background: #fff;
     text-align: center;
     border: 1px solid lightslategray;
     padding: 20px;
-    margin-left: 675px;
-    position: relative;
-    bottom: 323px;
-    right: -110px;
+    float: right;
+    position: relative; 
+    bottom: 341px;
+    right: 28%;
 }
 
 /*connect box index h3*/
@@ -142,17 +144,16 @@ aside h3 {
 
 /* connect box contact */
 aside2 {
-    width: 200px;
-    height: 100px;
+    width: 15%;
+    height: 25%;
     float: right;
     background: #fff;
     text-align: center;
     border: 1px solid lightslategray;
     padding: 20px;
-    margin-left: 675px;
     position: relative;
-    bottom: 450px;
-    right: -110px;
+    bottom: 579px;
+    left: 57%;
 }
 /*connect box contact h3*/
 aside2 h3 {
@@ -164,17 +165,16 @@ aside2 h3 {
 
 /* connect box contact portfolio */
 aside3 {
-    width: 200px;
-    height: 100px;
+    width: 20%;
     float: right;
     background: #fff;
     text-align: center;
     border: 1px solid lightslategray;
-    padding: 20px;
-    margin-left: 675px;
+    padding: 2%;
     position: relative;
-    bottom: 758px;
-    right: -110px;
+    bottom: 885px;
+    left: 60%
+
 }
 /*connect box portfolio h3*/
 aside3 h3 {
@@ -243,7 +243,7 @@ div.gallery {
     margin: 5px;
     float: left;
     width: 175px;
-    margin-bottom: 0;
+    margin-bottom: auto;
 }
 
 div.gallery img {
@@ -274,4 +274,191 @@ div.desc {
     border-top-width: 8px;
     border-top-color: #4aaaa5;
     padding-top: 40px;
+}
+
+@media screen and (max-width: 980px) and (min-width: 769px) {
+    
+/* About Me paragraph */ /***DONE***/
+.wrapper {
+    width: 30%;
+    padding: 5%;
+}
+
+/* Connect With Me Index */ /***DONE***/
+aside {
+    position:relative;
+    bottom: 571px;
+    right: 18%;
+    padding: 2%;
+    width: 20%;
+}
+
+/* gallery */  /***DONE***/
+.wrapper3 {
+    width: 19%;
+    margin-bottom: 0
+}
+
+/* Connect With Me Portfolio */  /***DONE***/
+aside3 {
+    position: relative;
+    left: 430px;
+    bottom: 1218px;
+    width: 17%;
+}
+
+/*Contact Me blank fields*/  /***DONE***/
+.wrapper2 {
+    width: 40%;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+/*Connect With Me Contact*/ /***DONE***/
+aside2 {
+    position: relative;
+    bottom: 460px;
+    width: 20%
+    }
+}
+    
+@media screen and (max-width: 768px) and (min-width: 641px) {
+    
+/* About Me paragraph */ /***DONE***/
+.wrapper {
+    width: 90%;
+    position: absolute;
+    right: 4.5%;
+    top:15%;
+        }
+/* Connect With Me Index */ /***DONE***/
+
+aside {
+    width: 86.5%;
+    position: relative;
+    right: 4.5%;
+    top: 300px;
+    margin-bottom: 20%;
+}
+        
+header {
+    margin-left: -60px; 
+}
+    
+li {
+    margin-right: -20px;
+}
+    
+ul {
+    margin-right: -70px; 
+}
+    
+/* gallery */ /***DONE***/
+.wrapper3 {
+    width: 50%;
+    margin-top: auto;
+    margin-left: 25%;
+    margin-bottom: 100px;
+        }   
+    
+/* Connect With Me Portfolio */   /***DONE***/
+aside3 {
+    width: 47.2%;
+    position: relative;
+    top: -75px;
+    left: 192px;
+    margin-bottom: 8%;
+}
+
+/*Contact Me blank fields*/   /***DONE***/
+.wrapper2 {
+    width: 95%;
+    margin: 25px 15px;
+    margin-bottom: 200px;
+}
+/*Connect With Me Contact*/   /***DONE***/
+aside2 {
+    width: 90.8%;
+    position: relative;
+    bottom: 160px;
+    left: 2%;
+}
+
+ul {
+    margin-right: -150px;
+}
+
+}
+    
+@media screen and (max-width: 640px) and (min-width: 0px) {
+        
+/* Connect With Me Index*/ /***DONE***/
+.wrapper {
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    right: 5%;
+    top:15%;
+}
+/* Connect With Me Index */ /***DONE***/
+aside {
+    width: 86%;
+    position: relative;
+    right: 4.75%;
+    top: 320px;
+    margin-bottom: 10%;
+}
+        
+header {
+    margin-left: -60px; 
+}
+            
+li {
+    margin-right: -20px;
+}
+            
+ul {
+    margin-right: -120px; 
+}
+
+/*Gallery*/   /***DONE***/   /***Realized late these screenshots were for responsive gallery images Friday evening. Could not figure out the <div class="responsive">**/
+.wrapper3 {
+    width: 29.5%;
+    margin-left: 34%;
+}
+
+.responsive {
+    width: 100%;
+}
+
+/*Connect With Me Gallery */ /***DONE***/
+aside3 {
+    position: relative;
+    top: -35px;
+    left: 218px;
+    width: 27%;
+    margin-bottom: 15%;
+}
+
+/*Contact Fields*/   /***DONE***/
+.wrapper2 {
+    width: 90%;
+    position: relative;
+    right: 16%;
+    margin-top: auto;
+}
+
+/*Connect With Me Contact Form*/  /***DONE***/
+aside2 {
+    width: 85%;
+    position: relative;
+    left: 4%;
+    top: -28px;
+    margin-bottom: 15%;
+}
+
+}
+
+
 }

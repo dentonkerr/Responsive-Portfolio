@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Denton Kerr's Portfolio</title>    
 </head>
@@ -12,24 +12,31 @@
 <link rel="stylesheet" href="assets/css/style.css">
 
 <body>
-    <ul>
-        <a href="index.html"><header>Denton Kerr</header></a>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="index.html">About</a></li>
-    </ul>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbarHeader">
+                <a href="index.html"><header>Denton Kerr</header></a>
+            </div>
+            <div class="navbarNav">
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="index.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<div class="wrapper">
-    <section id="content"></section>
-        <h2>About Me</h2>
-        <hr>    
-            <p>
-                <div id="dude"><img src="assets/images/dude-1.jpg" alt="dude" width="175" height="175"></div>
-                <div id="bio">I was born in Hilton Head Island, SC. I graduated from the University of South Carolina with a Bachelor's of Science in Business Administration. For the past 6 years, I have worked for K. Hovnanian Homes, a national home builder. I started in sales, moved to operations, and most recently was an Assistant Construction Manager.
-                </div>
-            </p>
-    </section>
-</div>
+<div class="container">
+    <div class="wrapper">
+        <section id="content"></section>
+            <h2>About Me</h2>
+            <hr>    
+                <p>
+                    <div id="dude"><img src="assets/images/dude-1.jpg" alt="dude" height=175 width=175 ></div>
+                    <div id="bio">I was born in Hilton Head Island, SC. I graduated from the University of South Carolina with a Bachelor's of Science in Business Administration. For the past 6 years, I have worked for K. Hovnanian Homes, a national home builder. I started in sales, moved to operations, and most recently was an Assistant Construction Manager.</div>
+                </p>
+    </div>
 
     <aside>
         <h3>Connect With Me</h3>
@@ -38,10 +45,11 @@
             <a href="https://www.linkedin.com/in/dentonkerr/"><img src="assets/images/LinkedIn.png" width="50" height="50"></a>
             <a href="https://stackoverflow.com/users/8834500/d-kerr?tab=profile"><img src="assets/images/Stack Overflow.png" width="50" height="50"></a>
     </aside>
-
-<div class="footer">
-    <p2>&copy; 2017 Denton Kerr</p2>
 </div>
+
+    <div class="footer">
+        <p2>&copy; 2017 Denton Kerr</p2>
+    </div>
 
 </body>
 
